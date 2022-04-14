@@ -1,6 +1,6 @@
 import java.util.*;
 
- class RockPaperScissors {
+ public class RockPaperScissorsGame {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -8,10 +8,11 @@ import java.util.*;
         System.out.print("You :");
         String str1 = sc.next();
         String str2 = new String();
-        int a = (int) Math.random() * 3 + 1;
-        if (a >= 1 & a < 2) {
+        int a = (int) (Math.random() * 3 + 1);
+        System.out.println(a);
+        if (a == 1 ) {
             str2 = "rock";
-        } else if (a >= 2 & a < 3) {
+        } else if (a == 2 ) {
             str2 = "paper";
         } else {
             str2 = "scissors";
