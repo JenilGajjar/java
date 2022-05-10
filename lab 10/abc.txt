@@ -1,0 +1,10 @@
+Hello
+word
+from
+java
+this
+is
+a
+text
+file
+Thank you

@@ -1,0 +1,6 @@
+Hello Word From Java
+This is a txt file
+word2 word2  word2 word2
+word2
+word2 word2 word2
+Thank you for reading.
