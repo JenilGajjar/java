@@ -18,7 +18,7 @@ public class IODemo1 {
             String[] words = str.split(" ");
             worldCount += words.length;
             for (String word : words) {
-                characterCount += word.trim().length();
+                characterCount += word.length();
             }
             str = bufferedReader.readLine();
         }
